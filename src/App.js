@@ -78,7 +78,7 @@ class App extends Component {
       <div className="App">
         <ReactMapGL
           {...viewport}
-          // mapStyle="mapbox://styles/siddharthvaidya/ck8d3snzz2gy71inwoouscjzm"
+          mapStyle="mapbox://styles/mapbox/streets-v11?optimize=true"
           mapboxApiAccessToken="pk.eyJ1Ijoic2lkZGhhcnRodmFpZHlhIiwiYSI6ImNrOGQzY3E5djByb3AzZW1qZjVocTE1NDgifQ.fT4SdJA-bKajoF4Gv_0B6w"
           onViewportChange={(w) => this.setViewport(w)}
           ref={(reactMap) => (this.reactMap = reactMap)}
