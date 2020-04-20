@@ -30,8 +30,7 @@ let viewport = {
   height: window.innerHeight,
   latitude: 19.256475,
   longitude: 72.874985,
-
-  zoom: 10,
+  zoom: 15,
 };
 const parkLayer = {
   id: "landuse_park",
