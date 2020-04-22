@@ -28,9 +28,9 @@ const geojson = {
 let viewport = {
   width: window.innerWidth,
   height: window.innerHeight,
-  latitude: 19.256475,
-  longitude: 72.874985,
-  zoom: 15,
+  latitude: 22.243496,
+  longitude: 114.167335,
+  zoom: 16,
 };
 const parkLayer = {
   id: "landuse_park",
@@ -78,8 +78,8 @@ class App extends Component {
       <div className="App">
         <ReactMapGL
           {...viewport}
-          mapStyle="mapbox://styles/mapbox/streets-v11?optimize=true"
-          mapboxApiAccessToken="pk.eyJ1Ijoic2lkZGhhcnRodmFpZHlhIiwiYSI6ImNrOGQzY3E5djByb3AzZW1qZjVocTE1NDgifQ.fT4SdJA-bKajoF4Gv_0B6w"
+          mapStyle="mapbox://styles/sidhu123/ck9beoecn0d9n1ikg3vppdbey"
+          mapboxApiAccessToken="pk.eyJ1Ijoic2lkaHUxMjMiLCJhIjoiY2s3OHAzN2JnMGkybTNmcGo2MWc2a20wcyJ9.7PPfZp1Qo_MvUPhEiZBPHw"
           onViewportChange={(w) => this.setViewport(w)}
           ref={(reactMap) => (this.reactMap = reactMap)}
         >
