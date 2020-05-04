@@ -28,9 +28,9 @@ const geojson = {
 let viewport = {
   width: window.innerWidth,
   height: window.innerHeight,
-  latitude: 22.243496,
-  longitude: 114.167335,
-  zoom: 16,
+  latitude: 22.2436886,
+  longitude: 114.1672106,
+  zoom: 20,
 };
 const parkLayer = {
   id: "landuse_park",
